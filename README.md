@@ -16,6 +16,13 @@
 ### Typography
 [Primary Font: Jost](https://fonts.google.com/specimen/Jost)
 
+### Colors
+[Color Hunt](https://colorhunt.co/palette/f4f6fffbd46d4f8a8b07031a)
+
+| Color | Hex Value |
+| --- | --- |
+| Green | <span style="background-color:#12853F; color:#fff">#12853F</span> |
+
 ---
 
 ## Testing
