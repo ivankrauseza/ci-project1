@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: azure;
+}
+
+@media screen and (max-width:320px) {
+    header {
+        background-color: #eee;
+    }
+
+    section {
+        background-color: #ccc;
+    }
+
+    footer {
+        background-color: #eee;
+    }
+}
