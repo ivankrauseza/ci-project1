@@ -1,6 +1,18 @@
-#MZANZI Tours
+# MZANZI Tours
 
-##Contents
--Introduction
+## Contents
+- Introduction
+- Testing
+- Deployment
+- Resources
+- Credits
 
-##Introduction
+## Introduction
+
+## Testing
+
+## Deployment
+
+## Resources
+
+## Credits
