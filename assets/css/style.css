@@ -8,6 +8,7 @@ body {
 }
 
 * {
+    color: #333;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -45,15 +46,27 @@ header {
 }
 #primary-nav ul li a {
     padding: 0 10px;
+    opacity: 0.8;
+}
+#primary-nav ul li a:hover {
+    opacity: 1;
 }
 
 /* Primary CTA */
 #primary-button {
     margin: 10px 15px;
     padding: 0 10px;
-    background-color: aqua;
+    background-color: #eee;
+    color: #333;
     border-radius: 2px;
     line-height: 55px;
+}
+#primary-button i {
+    color: inherit;
+}
+#primary-button:hover {
+    background-color: #333;
+    color: #eee;
 }
 
 
