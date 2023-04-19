@@ -27,7 +27,8 @@ small {font-size: 0.75em;}
 }
 
 /* FORM ELEMENTS */
-input:focus {
+input:focus,
+textarea:focus {
     outline:none;
 }
 button {
@@ -88,6 +89,20 @@ header {
 #primary-button:hover {
     background-color: #07031A;
     color: #eee;
+}
+
+/* ON PAGE */
+#home-link .home-link a span {
+    color: #4F8A8B;
+}
+#trip-link .trip-link a span {
+    color: #4F8A8B;
+}
+#team-link .team-link a span {
+    color: #4F8A8B;
+}
+#contact-link .contact-link a span {
+    color: #4F8A8B;
 }
 
 
@@ -213,6 +228,85 @@ section {
     content: close-quote;
 }
 
+
+/* CONTACT US */
+
+#contact-page {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 auto;
+}
+#contact-page > div {
+    min-height: calc(100vh - 75px);
+}
+
+#contact-img {
+    width: 100%;
+    padding: 5%;
+    position: relative;
+    background: url("../images/contact-crocs.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#contact-form {
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #4F8A8B;
+    color: #fff;
+}
+#contact-form h1,
+#contact-form p {
+    color: inherit;
+}
+#contact-form h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    line-height: 100%;
+    font-weight: 500;
+}
+#contact-form p {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-size: 2em;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+#contact-form form input,
+#contact-form form textarea,
+#contact-form form button {
+    display: block;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+#contact-form label {
+    color: #fff;
+    font-size: 20px;
+}
+#contact-form form input,
+#contact-form form textarea {
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid rgba(255,255,255,0.25);
+    margin: 0 0 15px 0;
+}
+
+#contact-form form button {
+    font-size: 30px;
+    width: auto;
+    background-color:  rgba(255,255,255,0.25);
+    color: #4F8A8B;
+    line-height: 50px;
+    padding:0 15px;
+    border-radius: 5px;
+}
+#contact-form form button:hover {
+    background-color:  rgba(255,255,255,1);
+    color: #4F8A8B;}
 
 /* NEWSLETTER */
 
