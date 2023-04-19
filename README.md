@@ -44,6 +44,7 @@
 [Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/) 
 [Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)  
 [Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/) 
+[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)
 
 ---
 

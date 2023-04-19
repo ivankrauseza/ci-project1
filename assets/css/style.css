@@ -13,6 +13,11 @@ body {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    border: none;
+}
+
 h1 {font-size: 3em;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.5em;}
@@ -199,7 +204,7 @@ section {
 #home-testimonials > div {
     width: 256px;
 }
-.profile .face {
+#home-testimonials.profile .face {
     margin: 0 auto 10px auto;
     width: 150px;
     height: 150px;
@@ -208,24 +213,117 @@ section {
     position: relative;
     overflow: hidden;
 }
-.profile .face img {
+#home-testimonials.profile .face img {
     width: 100%;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
 }
-.profile p {
+#home-testimonials.profile p {
     font-weight: 500;
 }
-.profile em {
+#home-testimonials.profile em {
     font-weight: 300;
 }
-.profile em::before {
+#home-testimonials.profile em::before {
     content: open-quote;
 }
-.profile em::after {
+#home-testimonials.profile em::after {
     content: close-quote;
+}
+
+
+
+/* TEAM */
+
+#team-founder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1366px;
+    height: 512px;
+}
+#team-founder > div {
+    width: 100%;
+    height: 512px;
+    text-align: center;
+    position: relative;
+    display: table;
+}
+#team-founder > div > img {
+    margin: 0 auto;
+}
+#team-founder > div > div.quote {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#team-founder > div > div.quote h1 {
+    margin: 0;
+    padding: 0;
+    color: #4F8A8B;
+}
+#team-founder > div > div.quote blockquote {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+#team-founder > div > div.quote p {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 2em;
+}
+#team-founder > div > div.quote small {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+/* STAFF MEMBERS */
+
+#staff-profiles {
+    clear: both;
+    line-height: 0;
+    column-count: 6;
+    column-gap: 0;
+    margin: 0 auto;
+}
+#staff-profiles > div {
+    position: relative;
+}
+#staff-profiles > div > img {
+    width: 100%;
+    filter: grayscale(1);
+}
+#staff-profiles > div:hover > img {
+    width: 100%;
+    filter: grayscale(0);
+}
+#staff-profiles > div > p {
+    padding: 5px;
+    text-align: center;
+    line-height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+#staff-profiles > div > p > strong {
+    color: #fff;
+    display: block;
+    line-height: 150%;
+}
+#staff-profiles > div > p > em {
+    color: #fff;
+    display: block;
+    line-height: 150%;
 }
 
 
@@ -307,6 +405,9 @@ section {
 #contact-form form button:hover {
     background-color:  rgba(255,255,255,1);
     color: #4F8A8B;}
+
+
+
 
 /* NEWSLETTER */
 
