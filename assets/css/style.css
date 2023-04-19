@@ -72,7 +72,8 @@ header {
     list-style: none;
 }
 #primary-nav ul li a {
-    padding: 0 10px;
+    font-size: 20px;
+    padding: 0 15px;
     opacity: 0.8;
 }
 #primary-nav ul li a:hover {
@@ -83,17 +84,19 @@ header {
 #primary-button {
     margin: 10px 10px;
     padding: 0 10px;
-    background-color: #eee;
-    color: #07031A;
+    background-color: #4F8A8B;
+    color: #FFFFFF;
     border-radius: 2px;
     line-height: 55px;
+    opacity: 0.9;
 }
 #primary-button i {
     color: inherit;
 }
 #primary-button:hover {
-    background-color: #07031A;
-    color: #eee;
+    background-color: #4F8A8B;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 /* ON PAGE */
