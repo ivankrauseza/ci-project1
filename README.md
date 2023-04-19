@@ -8,7 +8,10 @@
 - Resources
 - Credits
 
-## Introduction
+## Checklist
+
+- [ ] 404 Error page
+- [ ] W3C Test
 
 ---
 
