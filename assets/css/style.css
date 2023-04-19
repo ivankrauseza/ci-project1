@@ -297,7 +297,7 @@ section {
 }
 #staff-profiles > div > img {
     width: 100%;
-    filter: grayscale(1);
+    filter: grayscale(0.5);
 }
 #staff-profiles > div:hover > img {
     width: 100%;
