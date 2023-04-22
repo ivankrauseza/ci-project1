@@ -163,7 +163,7 @@ header {
     color: #4F8A8B;
 }
 #top-link .top-link {
-    display: none;
+    visibility: hidden;
 }
 #top-link .top-link a span {
     color: #4F8A8B;
@@ -585,17 +585,17 @@ footer {
 
 
 /* RESPONSIVE */
-@media screen and (max-width:320px) {
+@media screen and (max-width:640px) {
 
     /*HEADER*/
     header {
-        background-color: #eee;
+        background-color: #000;
     }
 
     #primary-nav {
-        position: fixed!important;
-        bottom: 0;
-        left: 0;
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
         width: 100%;
         background-color: #ffcc00;
     }
