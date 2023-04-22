@@ -38,6 +38,7 @@ textarea:focus {
     outline:none;
 }
 button {
+    border: none;
     cursor: pointer;
 }
 
@@ -316,6 +317,149 @@ section {
     content: close-quote;
 }
 
+
+
+/* PACKAGES */
+
+
+#packages {
+    padding: 2em;
+    display: flex;
+    justify-content:space-evenly;
+    column-gap: 2em;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+#packages > div {
+    width: 100%;
+    padding: 2em;
+    border: 1px solid #eee;
+}
+
+#packages > div > .summer,
+#packages > div > .winter {
+    height: 350px;
+    background-color: #eee;
+    padding: 1em;
+    opacity: 1;
+}
+#packages .summer h2,
+#packages .winter h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    line-height: 125%;
+    color: #fff;
+    text-shadow: 2px 2px #333333;
+}
+#packages .summer h3,
+#packages .winter h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+    text-shadow: 2px 2px #333333;
+}
+#packages .summer {
+    background-color: aqua;
+    background: url("../images/pexels-op-13791865.jpg") no-repeat center center;
+    background-size: cover;
+}
+#packages .winter {
+    background-color:azure;
+    background: url("../images/pexels-ruben-verla-11153531.jpg") no-repeat center center;
+    background-size: cover;
+}
+#packages .summer:hover,
+#packages .winter:hover {
+    opacity: 1;
+}
+#packages hr {
+    display: block;
+}
+
+#packages .usp {
+    margin: -45px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#packages .usp li {
+    position: relative;
+    background-color: #4F8A8B;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+}
+#packages .usp li i {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #fff;
+
+}
+#packages .usp li span {
+    position: absolute;
+    top:110%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    font-size: 12px;
+    display: block;
+    white-space: nowrap;
+
+}
+#packages .desc {
+    margin: 45px 0 15px 0;
+}
+#packages h3 {
+    color: #4F8A8B;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+#packages h4 {
+    color: #4F8A8B;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+#packages h5 {
+    color: #4F8A8B;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#packages p {
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+#packages ul {
+    margin: 0 0 15px 15px;
+    padding: 0;
+}
+#packages button {
+    float: right;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    width: 155px;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 15px;
+
+    background-color: #4F8A8B;
+    color: #fff;
+
+    border-radius: 4px;
+    opacity: 0.9;
+}
 
 
 /* TEAM */
