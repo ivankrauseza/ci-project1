@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MZANZI Tours is a travel operator that offers visitors to South Africa a unique packaged based adventure to South Africa.">
-    <meta name="keywords" content="Tours, South Africa, Cape Town, Drakensburg, Kruger Park, Flights, Africa, Safari">
+    <meta name="keywords" content="Tours, South Africa, Cape Town, activity-two, Kruger Park, Flights, Africa, Safari">
     <title>Contact Us | MZANZI Tours</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -13,9 +13,8 @@
 
     <header>
 
-        <a href="index.html" id="primary-logo">
-            <strong>MZANZI</strong>
-            <small>Tours</small>
+        <a href="index.html" id="primary-logo" aria-label="Logo link to open home page">
+            <img src="./assets/images/mzanzi-logo.png" alt="mzanzi tours logo">
         </a>
 
         <nav class="primary-nav">
@@ -27,9 +26,9 @@
                     </a>
                 </li>
                 <li class="trip-link">
-                    <a href="trips.html">
+                    <a href="packages.html">
                         <i class="fa-solid fa-map-location-dot"></i>
-                        <span>Trips</span>
+                        <span>Packages</span>
                     </a>
                 </li>
                 <li class="team-link">
@@ -39,19 +38,26 @@
                     </a>
                 </li>
                 <li class="top-link">
-                    <a href="contact.html">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>Contact</span>
+                    <a href="#top">
+                        <i class="fa-regular fa-circle-up"></i>
+                        <span>Top</span>
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <a href="bookings.html" id="primary-button">
-            <i class="fa-solid fa-plane-departure"></i> MAKE A BOOKING
-        </a>
+        <div id="primary-button">
+            <a href="contact.html" class="contact">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="bookings.html" class="call-to-action">
+                <i class="fa-solid fa-plane-departure"></i>
+            </a>
+        </div>
 
     </header>
+
+<main>
 
     <section>
         <div id="contact-page">
@@ -74,7 +80,9 @@
         </div>
     </section>
 
-    <footer>
+    </main>
+
+<footer>
 
         <div id="footer-copyright">
             <p>Copyright &copy; 2023 | MZANZI Tour Limited.</p>
