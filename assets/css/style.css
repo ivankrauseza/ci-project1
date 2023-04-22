@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Jost', sans-serif;
     color: #07031A;
+    position: relative;
 }
 
 * {
@@ -42,6 +43,8 @@ button {
 
 /* HEADER */
 header {
+    display: block;
+    float: left;
     width: 100%;
     height: 75px;
     line-height: 75px;
@@ -57,40 +60,47 @@ header {
     top:0;
     left: 0;
 
+    width: auto;
     height: 75px;
-    padding: 0 15px;
 }
-#primary-logo strong {
-    font-size: 2em;
-}
-#primary-logo small {
-    font-size: 1em;
+#primary-logo img {
+    margin: 20px 15px;
+    width: auto;
+    height: 35px;
 }
 
 /* Primary Navigation */
-#primary-nav {
+.primary-nav {
     position: absolute;
     top:0;
     left: 50%;
     transform: translate(-50%,0%);
 
     height: 75px;
-    padding: 0 15px;
+    padding: 0 10px;
 }
-#primary-nav ul {
+.primary-nav ul {
     margin: 0;
     display: flex;
     margin-right: 0;
     padding: 0;
     list-style: none;
 }
-#primary-nav ul li a {
+
+.primary-nav ul li.top-link {
+    display: none;
+}
+
+.primary-nav ul li a {
     font-size: 20px;
     padding: 0 15px;
     opacity: 0.8;
 }
-#primary-nav ul li a:hover {
+.primary-nav ul li a:hover {
     opacity: 1;
+}
+.primary-nav ul li a i {
+    color: inherit;
 }
 
 /* Primary CTA */
@@ -133,8 +143,11 @@ header {
     background-color: #ffcc00;
     color: #222;
 
-    border-radius: 2px;
+    border-radius: 4px;
     opacity: 0.9;
+}
+#primary-button a.call-to-action::after {
+    content: "Make a booking";
 }
 
 #primary-button i {
@@ -145,6 +158,9 @@ header {
     color: #222;
     opacity: 1;
 }
+#primary-button a.contact::after {
+    content: "Contact Us";
+}
 #primary-button a.contact:hover {
     background-color: #eee;
     color: #222;
@@ -153,20 +169,14 @@ header {
 }
 
 /* ON PAGE */
-#home-link .home-link a span {
-    color: #4F8A8B;
-}
-#trip-link .trip-link a span {
-    color: #4F8A8B;
-}
-#team-link .team-link a span {
-    color: #4F8A8B;
-}
-#top-link .top-link {
-    visibility: hidden;
-}
-#top-link .top-link a span {
-    color: #4F8A8B;
+#home-link .home-link a i,
+.home-link:hover a i,
+#trip-link .trip-link a i,
+.trip-link:hover a i,
+#team-link .team-link a i,
+.team-link:hover a i,
+#top-link .top-link a i {
+    color: #ffcc00;
 }
 
 
@@ -589,18 +599,67 @@ footer {
 
     /*HEADER*/
     header {
-        background-color: #000;
+        height: 75px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     }
 
-    #primary-nav {
+    .primary-nav {
         position: fixed;
-        bottom: 0%;
+        top: 100%;
         left: 0%;
+        transform: translate(0%,-100%);
         width: 100%;
-        background-color: #ffcc00;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     }
-    #top-link .top-link {
+    .primary-nav ul {
+        margin: 10px 0;
+        height: 55px;
+        line-height: 55px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .primary-nav ul li.top-link {
         display:block;
+    }
+
+    /* ON PAGE */
+    .home-link a i,
+    .trip-link a i,
+    .team-link a i,
+    .top-link a i {
+        font-size: 25px;
+        line-height: 55px;
+    }
+    .home-link a span,
+    .trip-link a span,
+    .team-link a span,
+    .top-link a span {
+        display: none;
+    }
+
+    
+    #primary-button a.call-to-action {
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+    }
+    #primary-button a.call-to-action::after {
+        content: "";
+    }
+    #primary-button a.contact {
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+    }
+    #primary-button a.contact::after {
+        content: "";
     }
 
     /*SECTIONS*/ 
@@ -610,6 +669,22 @@ footer {
     }
 
     footer {
+        background-color: #da0f0f;
+        margin-bottom: 75px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    /*HEADER*/
+    #primary-button a.contact {
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
         background-color: #eee;
+        text-align: center;
+    }
+    #primary-button a.contact::after {
+        content: "";
     }
 }
