@@ -256,12 +256,34 @@ section {
     margin: 0 auto;
     max-width: 1920px;
 }
-#home-trips > .trip-capetown,
-#home-trips > .trip-activity-two,
-#home-trips > .trip-kurgerpark {
+#home-trips .trips {
+    position: relative;
+}
+#home-trips .trips p {
+    text-align: center;
+    display: none;
+    font-size: 2em;
+    margin: 0;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    transform: translate(-0%,-0%);
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+}
+
+#home-trips .trips:hover p {
+    display: block;
+}
+
+#home-trips .trip-capetown,
+#home-trips .trip-activity-two,
+#home-trips .trip-kurgerpark {
     width: 100%;
     height: 350px;
-    background-color: #eee;
     padding: 1em;
     opacity: 1;
 }
@@ -286,13 +308,52 @@ section {
 }
 #home-trips > .trip-kurgerpark {
     background-color:azure;
-    background: url("../images/pexels-ruben-verla-11153531.jpg") no-repeat center center;
+    background: url("../images/home-lions.jpg") no-repeat center center;
     background-size: cover;
 }
 #home-trips > .trip-capetown:hover,
 #home-trips > .trip-activity-two:hover,
 #home-trips > .trip-kurgerpark:hover {
     opacity: 1;
+}
+
+#home-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 6;
+    column-gap:0;
+    margin: 1em;
+}
+#home-gallery > div {
+    position: relative;
+}
+#home-gallery > div > img {
+    width: 100%;
+}
+#home-gallery > div:hover > img {
+    width: 100%;
+}
+#home-gallery > div > p {
+    padding: 5px;
+    text-align: center;
+    line-height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+#home-gallery > div > p > strong {
+    color: #fff;
+    display: block;
+    line-height: 150%;
+}
+#home-gallery > div > p > em {
+    color: #fff;
+    display: block;
+    line-height: 150%;
 }
 
 
@@ -838,6 +899,7 @@ footer {
     }
 
     .primary-nav {
+        border-top:5px solid #ffcc00;
         position: fixed;
         top: 100%;
         left: 0%;
@@ -897,7 +959,7 @@ footer {
     /*SECTIONS*/ 
 
     section {
-        padding: 15px 0;
+        padding:0 10px;
     }
         
     .headline-wrapper .headline-inner {
@@ -906,8 +968,31 @@ footer {
     .headline-wrapper .headline-inner h1 {
         font-size: 2em;
     }
+    .headline-wrapper .headline-inner h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.5em;
+        line-height: 1em;
+    }
     .headline-wrapper .headline-inner p {
         font-size: 1em;
+        padding: 5px 0;
+    }
+    #home-hero {
+        padding: 10px;
+        height: auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    #home-hero h1 {
+        position: relative;
+        top: 0;
+        margin: 0;
+        left: 0;
+        transform: translate(0,0%);
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
     }
     
     #package-list {
@@ -934,7 +1019,44 @@ footer {
 
 
     footer {
-        background-color: #ffcc00;
+        border-top:5px solid #ffcc00;
+        background-color: #eee;
         margin-bottom: 75px;
+        display: block;
+    }
+    
+
+    #footer-copyright {
+        text-align: center;
+        padding: 15px 15px;
+        line-height: 12px;
+    }
+    #footer-copyright p {
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+    }
+
+    #footer-social {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    #footer-social ul {
+        margin: 0 auto;
+        display: flex;
+        padding:0 0 15px 0;
+        list-style: none;
+        line-height: 12px;
+    }
+    #footer-social ul li a {
+        padding: 0 10px;
+        font-size: 1.5em;
+        opacity: 0.8;
+        color: #07031A;
+    }
+    #footer-social ul li a:hover {
+        opacity: 1;
     }
 }

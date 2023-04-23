@@ -47,6 +47,7 @@
 [Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)  
 [Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr)  
 [Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)
+[Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)
 
 ---
 
