@@ -32,6 +32,28 @@ small {font-size: 0.75em;}
     text-align: center;
 }
 
+
+.headline-wrapper {
+    display: flex;
+}
+.headline-wrapper .headline-inner {
+    margin: 0 auto;
+    padding: 15px 30px;
+    max-width: 768px;
+}
+.headline-wrapper .headline-inner {
+    margin: 30px auto;
+    max-width: 768px;
+    text-align: center;
+}
+.headline-wrapper .headline-inner h1 {
+    margin: 0;
+}
+.headline-wrapper .headline-inner p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
 /* FORM ELEMENTS */
 input:focus,
 textarea:focus {
@@ -183,14 +205,14 @@ header {
 /* MAIN WRAPPER*/
 
 main {
-    padding: 75px 0;
+    background-color: white;
+    padding: 75px 0 0 0;
 }
 
 
 
 /* SECTIONS */
 section {
-    background-color: white;
     overflow: hidden;
 }
 
@@ -322,7 +344,10 @@ section {
 /* PACKAGES */
 
 
-#packages {
+
+
+
+#package-list {
     padding: 2em;
     display: flex;
     justify-content:space-evenly;
@@ -331,30 +356,31 @@ section {
     width: 100%;
     max-width: 1920px;
 }
-#packages > div {
+#package-list > div {
     width: 100%;
     padding: 2em;
     border: 1px solid #eee;
 }
 
-#packages > div > .summer,
-#packages > div > .winter {
+
+#package-list > div > .summer,
+#package-list > div > .winter {
     height: 350px;
     background-color: #eee;
     padding: 1em;
     opacity: 1;
 }
-#packages .summer h2,
-#packages .winter h2 {
+#package-list .summer h2,
+#package-list .winter h2 {
     margin: 0;
     padding: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 125%;
     color: #fff;
     text-shadow: 2px 2px #333333;
 }
-#packages .summer h3,
-#packages .winter h3 {
+#package-list .summer h3,
+#package-list .winter h3 {
     margin: 0;
     padding: 0;
     font-size: 1em;
@@ -362,40 +388,55 @@ section {
     color: #fff;
     text-shadow: 2px 2px #333333;
 }
-#packages .summer {
+#package-list .summer h4,
+#package-list .winter h4 {
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size: 2em;
+    line-height: 1em;
+    color: #fff;
+    text-shadow: 2px 2px #333333;
+}
+#package-list .summer h4 small,
+#package-list .winter h4 small {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+#package-list .summer {
     background-color: aqua;
     background: url("../images/pexels-op-13791865.jpg") no-repeat center center;
     background-size: cover;
 }
-#packages .winter {
+#package-list .winter {
     background-color:azure;
     background: url("../images/pexels-ruben-verla-11153531.jpg") no-repeat center center;
     background-size: cover;
 }
-#packages .summer:hover,
-#packages .winter:hover {
+#package-list .summer:hover,
+#package-list .winter:hover {
     opacity: 1;
 }
-#packages hr {
+#package-list hr {
     display: block;
 }
 
-#packages .usp {
-    margin: -45px 0 0 0;
+#package-list .usp {
+    margin: -40px 0 0 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
-#packages .usp li {
+#package-list .usp li {
     position: relative;
     background-color: #4F8A8B;
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     text-align: center;
 }
-#packages .usp li i {
+#package-list .usp li i {
     position: absolute;
     top:50%;
     left: 50%;
@@ -404,7 +445,7 @@ section {
     color: #fff;
 
 }
-#packages .usp li span {
+#package-list .usp li span {
     position: absolute;
     top:110%;
     left: 50%;
@@ -414,36 +455,36 @@ section {
     white-space: nowrap;
 
 }
-#packages .desc {
+#package-list .desc {
     margin: 45px 0 15px 0;
 }
-#packages h3 {
+#package-list h3 {
     color: #4F8A8B;
     font-size: 2.5em;
     margin: 0;
     padding: 0;
 }
-#packages h4 {
+#package-list h4 {
     color: #4F8A8B;
     font-size: 2em;
     margin: 0;
     padding: 0;
 }
-#packages h5 {
+#package-list h5 {
     color: #4F8A8B;
     font-size: 1.5em;
     margin: 0;
     padding: 0;
 }
-#packages p {
+#package-list p {
     margin: 0;
     padding: 0 0 15px 0;
 }
-#packages ul {
+#package-list ul {
     margin: 0 0 15px 15px;
     padding: 0;
 }
-#packages button {
+#package-list button {
     float: right;
     font-size: 1em;
     font-weight: 500;
@@ -737,6 +778,55 @@ footer {
 
 
 /* RESPONSIVE */
+
+
+@media screen and (max-width:1024px) {
+
+    /*HEADER*/
+    #primary-button a.contact {
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+        background-color: #eee;
+        text-align: center;
+    }
+    #primary-button a.contact::after {
+        content: "";
+    }
+
+    
+    main {
+        background-color: #F6F6F6;
+    }
+    
+        
+    #packages .headline-wrapper .headline-inner {
+        margin: 15px auto 0 auto;
+    } 
+    #packages .headline-wrapper .headline-inner h1 {
+        font-size: 2em;
+    }
+    #packages .headline-wrapper .headline-inner p {
+        font-size: 1em;
+    }
+    
+    #package-list {
+        padding: 1em;
+        column-gap: 1em;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    #package-list > div {
+        clear: both;
+        padding: 1em 1em 1em 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        border:none;
+        background-color: #fff;
+    }
+}
+
 @media screen and (max-width:640px) {
 
     /*HEADER*/
@@ -807,26 +897,44 @@ footer {
     /*SECTIONS*/ 
 
     section {
-        background-color: #ccc;
+        padding: 15px 0;
     }
+        
+    .headline-wrapper .headline-inner {
+        margin: 15px auto 0 auto;
+    } 
+    .headline-wrapper .headline-inner h1 {
+        font-size: 2em;
+    }
+    .headline-wrapper .headline-inner p {
+        font-size: 1em;
+    }
+    
+    #package-list {
+        padding: 1em;
+        display: block;
+        column-gap: 1em;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    #package-list > div {
+        clear: both;
+        padding: 1em 1em 75px 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        border:none;
+        background-color: #fff;
+    }
+
+    #contact-page {
+        display: block;
+        margin: 0 auto;
+    }
+
 
     footer {
-        background-color: #da0f0f;
+        background-color: #ffcc00;
         margin-bottom: 75px;
-    }
-}
-
-@media screen and (max-width:1024px) {
-
-    /*HEADER*/
-    #primary-button a.contact {
-        width: 55px;
-        height: 55px;
-        border-radius: 100%;
-        background-color: #eee;
-        text-align: center;
-    }
-    #primary-button a.contact::after {
-        content: "";
     }
 }
