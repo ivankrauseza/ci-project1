@@ -748,32 +748,10 @@ section {
         column-gap: 2em;
         margin: 0 auto;
         padding:0 4em;
-        max-width: 1920px;
+        max-width: 1024px;
     }
     #booking-page > div {
         padding: 2em;
-    }
-    #booking-details {
-        width: 100%;
-        padding-top: 100%;
-        position: relative;
-    }
-    #booking-details hr {
-        border: none;
-        border-bottom: 1px solid #ffcc00;
-    }
-    
-    #booking-map {
-        width: 100%;
-        padding-top: 100%;
-        position: relative;
-    }
-    #booking-map iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
     }
     
     #booking-form {

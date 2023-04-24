@@ -64,7 +64,7 @@
         <div class="headline-wrapper"> 
             <div class="headline-inner">          
                 <h1>
-                    <i class="fa-solid fa-plane-departure"></i> Bookings
+                    <i class="fa-solid fa-plane-departure"></i> Booking Inquiry
                 </h1>
                 <p>
                     All <strong>Flights, Transfers, Accommodation</strong> and <strong>Meals</strong> are included. 
@@ -75,16 +75,37 @@
 
         <div id="booking-page">
             <div id="booking-form">
-                <h1>Contact Us</h1>
-                <p>Ask us anything!</p>
                 <form action="" method="POST">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="full-name" value="" required>
+
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" value="" required>
-                    <label for="message">Message</label>
+
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" value="" required>
+
+                    <h4>Package Selection</h4>
+                    <label for="package">Please choose a Package</label>
+                    <input type="text" id="package" name="package" value="" required>
+
+                    <label for="dates">Please choose your Dates</label>
+                    <input type="text" id="dates" name="dates" value="" required>
+
+                    <h4>Guests</h4>
+                    <label for="adults">Adults</label>
+                    <input type="text" id="adults" name="adults" value="" required>
+
+                    <label for="kids">Kids (Under 16)</label>
+                    <input type="text" id="kids" name="kids" value="" required>
+
+                    <label for="message">Special Notes/ Dietary Requirements</label>
                     <textarea name="message" id="" cols="30" rows="10" required></textarea>
-                    <button>SEND</button>
+
+                    <label for="gdpr">By sending this email you agree and accept our GDPR Policy</label>
+                    <input type="checkbox" name="gdpr">
+
+                    <button>SUBMIT INQUIRY</button>
                 </form>
             </div>
         </div>
