@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MZANZI Tours is a travel operator that offers visitors to South Africa a unique packaged based adventure to South Africa.">
     <meta name="keywords" content="Tours, South Africa, Cape Town, activity-two, Kruger Park, Flights, Africa, Safari">
-    <title>Make a Booking | MZANZI Tours</title>
+    <title>Contact Us | MZANZI Tours</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body id="bookings-link">
 
     <header>
 
@@ -59,32 +59,32 @@
 
 <main>
 
-    <section>
-        <div id="home-hero">
-            <h1>
-                BOOKINGS
-                <small>Cant wait to meet you!</small>
-            </h1>
-        </div>
-    </section>
+    <section id="bookings">
 
-    <section>
-        <div id="home-trips">
-            <a href="packages.html#capetown" class="trip-capetown">Cape Town</a>
-            <a href="packages.html#activity-two" class="trip-activity-two">activity-two</a>
-            <a href="packages.html#krugerpark" class="trip-kurgerpark">Kruger Park</a>
+        <div class="headline-wrapper"> 
+            <div class="headline-inner">          
+                <h1>
+                    <i class="fa-solid fa-plane-departure"></i> Bookings
+                </h1>
+                <p>
+                    All <strong>Flights, Transfers, Accommodation</strong> and <strong>Meals</strong> are included. 
+                </p>
+                <small>Prices displayed are subject to our Terms &amp; Conditions</small>
+            </div> 
         </div>
-    </section>
 
-    <section id="home-subscribe">
-        <div id="home-subscribe-content">
-            <div>
-                <h3>Newsletter Signup<small>Get access to our latest offers</small></h3>
-            </div>
-            <div>
-                <form>
-                    <input type="email" placeholder="Email Address">
-                    <button>JOIN</button>
+        <div id="booking-page">
+            <div id="booking-form">
+                <h1>Contact Us</h1>
+                <p>Ask us anything!</p>
+                <form action="" method="POST">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="full-name" value="" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" value="" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                    <button>SEND</button>
                 </form>
             </div>
         </div>
