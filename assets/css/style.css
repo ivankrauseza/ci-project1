@@ -769,7 +769,7 @@ section {
     color: #fff;
     margin: 0 15px 0 0;
     background: transparent;
-    padding: 0 15px;
+    padding: 0;
     border: none;
     border-bottom:2px solid rgba(255,255,255,0.25);
     height: 45px;
@@ -787,12 +787,13 @@ section {
     height: 50px;
     padding: 0 15px;
     width: 100px;
-    font-size: 1.25em;
+    font-size: 20px;
     letter-spacing: 2px;
     color: #fff;
 }
 #home-subscribe-content form button:hover {
-    color: #fff;
+    background:#fff;
+    color: #4F8A8B;
 }
 
 
@@ -946,6 +947,46 @@ footer {
         margin: 1em;
     }
 
+    /* NEWSLETTER */
+
+    #home-subscribe {
+        padding:30px 15px;
+        background-color: #4F8A8B;
+    }
+
+    #home-subscribe-content {
+        display: block;
+        text-align: center;
+    }
+
+    #home-subscribe-content h3 {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+    #home-subscribe-content h3 small {
+        font-size: 14px;
+    }
+
+    #home-subscribe-content form {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+    #home-subscribe-content form input {
+        height: 30px;
+        max-width: 256px;
+        font-size: 14px;
+    }
+    #home-subscribe-content form button {
+        height: 30px;
+        font-size: 14px;
+    }
+    
+
+    footer {
+        margin-bottom: 75px;
+    }
+
 }
 
 @media screen and (max-width:640px) {
@@ -1088,7 +1129,6 @@ footer {
     footer {
         border-top:5px solid #ffcc00;
         background-color: #eee;
-        margin-bottom: 75px;
         display: block;
     }
     
