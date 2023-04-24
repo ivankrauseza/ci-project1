@@ -52,3 +52,5 @@
 ---
 
 ## Credits
+[CSS Flexbox Tips : "First column 100%"](https://stackoverflow.com/questions/41789278/first-child-full-width-in-flexbox)
+
