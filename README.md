@@ -53,4 +53,7 @@
 
 ## Credits
 [CSS Flexbox Tips : "First column 100%"](https://stackoverflow.com/questions/41789278/first-child-full-width-in-flexbox)
+[JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)
+[JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html)
+[JS : "Display variable in HTML"](https://sebhastian.com/display-javascript-variable-html/?utm_content=cmp-true)
 

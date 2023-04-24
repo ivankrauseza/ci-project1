@@ -8,6 +8,7 @@
     <meta name="keywords" content="Tours, South Africa, Cape Town, activity-two, Kruger Park, Flights, Africa, Safari">
     <title>Contact Us | MZANZI Tours</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 <body id="contact-link">
 
@@ -69,15 +70,6 @@
             </div> 
         </div>
 
-        <form action="./formtoemailpro.php" method="POST">
-            <table border="0" style="background:#ececec" cellspacing="5">
-            <tr align="left"><td>Name</td><td><input type="text" size="30" name="name"></td></tr>
-            <tr align="left"><td>Email</td><td><input type="text" size="30" name="email"></td></tr>
-            <tr align="left"><td valign="top">Comments</td><td><textarea name="comments" rows="6" cols="30"></textarea></td></tr>
-            <tr align="left"><td>&nbsp;</td><td><input type="submit" value="Send"></td></tr>
-            </table>
-            </form>
-
         <div id="contact-page">
             <div id="contact-details">
                 <h2>
@@ -114,14 +106,14 @@
             </div>
             <div id="contact-form">
                 <p>Ask us anything!</p>
-                <form action="" method="POST">
+                <form id="myFormId">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="full-name" value="" required>
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" value="" required>
                     <label for="message">Message</label>
-                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
-                    <button>SEND</button>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                    <button type="submit">SEND</button>
                 </form>
             </div>
         </div>
@@ -158,6 +150,20 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0c303f45d6.js" crossorigin="anonymous"></script>
+    
+    <script>
+        let myForm = document.getElementById("myFormId");
+        myForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            let postName = document.getElementById("name").value;
+            let postEmail = document.getElementById("email").value;
+            let postMessage = document.getElementById("message").value;
+            let postArray = {postName, postEmail, postMessage};
+            console.log(postArray);
+            //alert("Thanks for your message " + postName+"! Check the console to see your captured data!");
+            location.href = 'thank-you-contact.html?guest='+postName+'&email='+postEmail+'&message='+postMessage;
+        });
+    </script>
 
 </body>
 </html>
