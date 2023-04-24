@@ -48,6 +48,8 @@
 [Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr)  
 [Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)
 [Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)
+[Favicon Generator](https://www.favicon-generator.org/)
+[Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp)
 
 ---
 
@@ -56,4 +58,15 @@
 [JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)
 [JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html)
 [JS : "Display variable in HTML"](https://sebhastian.com/display-javascript-variable-html/?utm_content=cmp-true)
+
+---
+
+## Bugs
+### Contact Page - Embedded Google Maps
+- [ ] Content Security Policy: Ignoring “'report-sample'” within script-src: ‘strict-dynamic’ specified.
+- [ ] Content Security Policy: Ignoring “'unsafe-inline'” within script-src: ‘strict-dynamic’ specified.
+- [ ] Content Security Policy: Ignoring “https:” within script-src: ‘strict-dynamic’ specified.
+- [ ] Content Security Policy: Ignoring “http:” within script-src: ‘strict-dynamic’ specified.
+- [ ] Content Security Policy: Ignoring “'unsafe-inline'” within script-src: nonce-source or hash-source specified.
+- [ ] Partitioned cookie or storage access was provided to “https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423812.3292439595!2d18.326424242027727!3d-33.91452907676783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1682337742346!5m2!1sen!2sie” because it is loaded in the third-party context and dynamic state partitioning is enabled..
 
