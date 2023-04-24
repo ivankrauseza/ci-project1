@@ -76,28 +76,31 @@
         <div id="booking-page">
             <div id="booking-form">
                 <form action="" method="POST">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="full-name" value="" required>
+                    <label for="name">Your Name (As per your passport)</label>
+                    <input type="text" id="name" name="full-name" value="" placeholder="Please enter your full name" required>
 
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" value="" required>
+                    <input type="email" id="email" name="email" value="" placeholder="Please enter a valid email address" required>
 
-                    <label for="phone">Phone number</label>
+                    <label for="phone">Phone number (Please include your country and area code)</label>
                     <input type="tel" id="phone" name="phone" value="" required>
 
                     <h4>Package Selection</h4>
                     <label for="package">Please choose a Package</label>
-                    <input type="text" id="package" name="package" value="" required>
+                    <select>
+                        <option value="Summer2324">Summer Package 2023-2024</option>
+                        <option value="Winter24">Winter Package 2024</option>
+                    </select>
 
                     <label for="dates">Please choose your Dates</label>
-                    <input type="text" id="dates" name="dates" value="" required>
+                    <input type="date" id="dates" name="dates" value="" required>
 
                     <h4>Guests</h4>
                     <label for="adults">Adults</label>
-                    <input type="text" id="adults" name="adults" value="" required>
+                    <input type="number" id="adults" name="adults" value="1" min="1" required>
 
                     <label for="kids">Kids (Under 16)</label>
-                    <input type="text" id="kids" name="kids" value="" required>
+                    <input type="number" id="kids" name="kids" value="0" required>
 
                     <label for="message">Special Notes/ Dietary Requirements</label>
                     <textarea name="message" id="" cols="30" rows="10" required></textarea>

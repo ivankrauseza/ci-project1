@@ -757,7 +757,7 @@ section {
     #booking-form {
         width: 100%;
         padding: 5% 10%;
-        background-color: #F6F6F6;
+        border: 1px solid #F6F6F6;
         color: #333;
     }
     #booking-form p {
@@ -772,6 +772,7 @@ section {
     }
     
     #booking-form form input,
+    #booking-form form select,
     #booking-form form textarea,
     #booking-form form button {
         display: block;
@@ -786,14 +787,26 @@ section {
         color: #666;
     }
     #booking-form form input,
+    #booking-form form select,
     #booking-form form textarea {
         font-size: 15px;
         padding: 10px 15px;
         border: 2px solid rgba(0,0,0,0.1);
         margin: 0 0 15px 0;
     }
+
+    #booking-form form input[type=checkbox] { 
+        width: auto;
+        text-align: left;
+        float: left;
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
     
     #booking-form form button {
+        margin-top: 15px;
+        clear: both;
         font-size: 20px;
         width: auto;
         background-color: #ffcc00;
