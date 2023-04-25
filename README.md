@@ -2,7 +2,7 @@
 A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME) and also some (Vanilla JS) testing purposes on the form submission (Contact Us / Bookings / Newsletter subscription).   
 
 ![Screenshot](/assets/images/readme/Devices-01.jpg)  
-[Image by storyset on Freepik](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr){:target="_blank"}  
+[Image by storyset on Freepik](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)  
 
 ## Contents
 - Introduction (above)
@@ -29,10 +29,10 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 ## Brand
 ### Typography
-[Primary Font: Jost](https://fonts.google.com/specimen/Jost){:target="_blank"}  
+[Primary Font: Jost](https://fonts.google.com/specimen/Jost)  
 
 ### Colors
-[Color Hunt](https://colorhunt.co/palette/f4f6fffbd46d4f8a8b07031a){:target="_blank"}  
+[Color Hunt](https://colorhunt.co/palette/f4f6fffbd46d4f8a8b07031a)  
 
 | Color | Hex Value |
 | --- | --- |
@@ -56,29 +56,29 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 ---
 
 ## Resources
-[Fonts : Google Fonts](https://fonts.google.com){:target="_blank"}    
-[Icons : Font Awesome](https://fonts.google.com){:target="_blank"}     
-[Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/){:target="_blank"}   
-[Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/){:target="_blank"}    
-[Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/){:target="_blank"}   
-[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr){:target="_blank"}    
-[Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr){:target="_blank"}    
-[Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003){:target="_blank"}  
-[Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/){:target="_blank"}  
+[Fonts : Google Fonts](https://fonts.google.com)    
+[Icons : Font Awesome](https://fonts.google.com)     
+[Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/)   
+[Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)    
+[Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/)   
+[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)    
+[Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr)    
+[Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)  
+[Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)  
 [Stock Vector "Devices"](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)
-[Favicon Generator](https://www.favicon-generator.org/){:target="_blank"}  
-[Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp){:target="_blank"}  
+[Favicon Generator](https://www.favicon-generator.org/)  
+[Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp)  
 
 ---
 
 ## Credits
-[CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net){:target="_blank"}    
-[CSS Columns : "Code Institute - Love Running"](https://www.codeinstitute.net){:target="_blank"}  
-[CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php){:target="_blank"}   
-[CSS Flexbox Tips : "First column 100%"](https://stackoverflow.com/questions/41789278/first-child-full-width-in-flexbox){:target="_blank"}  
-[JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/){:target="_blank"}  
-[JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html){:target="_blank"}  
-[JS : "Display variable in HTML"](https://sebhastian.com/display-javascript-variable-html/?utm_content=cmp-true){:target="_blank"}  
+[CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net)    
+[CSS Columns : "Code Institute - Love Running"](https://www.codeinstitute.net)  
+[CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)   
+[CSS Flexbox Tips : "First column 100%"](https://stackoverflow.com/questions/41789278/first-child-full-width-in-flexbox)  
+[JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)  
+[JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html)  
+[JS : "Display variable in HTML"](https://sebhastian.com/display-javascript-variable-html/?utm_content=cmp-true)  
 
 ---
 
