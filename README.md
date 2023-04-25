@@ -5,17 +5,19 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 [Image by storyset on Freepik](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)
 
 ## Contents
-- Introduction
+- Introduction (above)
+- Checklist
 - Brand
-- Testing
+- Testing Results
 - Deployment
 - Resources
 - Credits
 
 ## Checklist
 
-- [ ] 404 Error page
-- [ ] W3C Test
+- [  ] 404 Error page
+- [  ] W3C Test
+- [  ] CSS Test
 
 ---
 
@@ -28,11 +30,18 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 | Color | Hex Value |
 | --- | --- |
+| Yellow | <span style="background-color:#ffcc00; color:#333">#ffcc00</span> |
+| Teal | <span style="background-color:#4F8A8B; color:#fff">#4F8A8B</span> |
 | Green | <span style="background-color:#12853F; color:#fff">#12853F</span> |
+| Black | <span style="background-color:#000; color:#fff">#000000</span> |
+| Dark Grey | <span style="background-color:#333; color:#fff">#333333</span> |
+| Light Grey | <span style="background-color:#eee; color:#333">#eeeeee</span> |
+| Ultra Light Grey | <span style="background-color:#f6f6f6; color:#333">#f6f6f6</span> |
+| White | <span style="background-color:#fff; color:#333">#ffffff</span> |
 
 ---
 
-## Testing
+## Testing Results
 
 ---
 
