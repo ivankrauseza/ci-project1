@@ -62,14 +62,11 @@
             <div class="headline-wrapper"> 
                 <div class="headline-inner">          
                     <h1>
-                        Thank You <span style="color: green;" id="guestName"></span>
+                        Booking Request Submitted!
                     </h1>
                     <p>
-                       You message has been sent successfully!
+                       Thank you, we have received your booking!
                     </p>
-                    <small>
-                       You can view the Browser Console to see the message data.
-                    </small>
                 </div> 
             </div>
             
@@ -106,21 +103,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0c303f45d6.js" crossorigin="anonymous"></script>
-    <script>
-        window.onload = function() {
-            try {
-                var url_string = (window.location.href).toLowerCase();
-                var url = new URL(url_string);
-                var name = url.searchParams.get("guest").toUpperCase();
-                var email = url.searchParams.get("email");
-                var message = url.searchParams.get("message");
-                console.log({name, email, message});
-                document.getElementById("guestName").innerHTML = name;
-            } catch (err) {
-                console.log("Issues with Parsing URL Parameter's - " + err);
-            }
-        }
-    </script>
 
 </body>
 </html>

@@ -35,9 +35,9 @@
                 </li>
                 <li class="contact-link">
                     <a href="contact.html" aria-label="Link to contact page">
-                <i class="fa-solid fa-phone"></i>
-<span>Contact Us</span>
-            </a>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact Us</span>
+                    </a>
                 </li>
                 <li class="top-link">
                     <a href="#top" aria-label="Click here to go back to the top of the page">
@@ -56,66 +56,70 @@
 
     </header>
 
-<main>
+    <main>
 
-    <section id="contact">
+        <section id="contact">
 
-        <div class="headline-wrapper"> 
-            <div class="headline-inner">          
-                <h1>
-                    <i class="fa-solid fa-phone"></i> Contact Us
-                </h1>
-            </div> 
-        </div>
+            <div class="headline-wrapper"> 
+                <div class="headline-inner">          
+                    <h1>
+                        <i class="fa-solid fa-phone"></i> Contact Us
+                    </h1>
+                </div> 
+            </div>
 
-        <div id="contact-page">
-            <div id="contact-details">
-                <h2>
-                    Mzanzi Tours Head Office
-                </h2>
-                <p>
-                Get in touch today, or simply fill in the below contact details and a member of the Farmhand team will be in touch shortly.
-                </p>
-                <hr>
-                <h3>Physical Address</h3>
-                <p>
-                    123 Table Mountain Way
-                    <br>Table Mountain
-                    <br>Cape Town
-                    <br>Western Cape
-                    <br>South Africa
-                    <br>PO 7846
-                </p>
-                <hr>
-                <p>
-                    <strong>Email:</strong> <a mailto="info@mzanzitours.com">info@mzanzitours.com</a>
-                    <br>
-                    <strong>Call:</strong> <a tel="0027111234567">0027 11 123 4567</a>
-                </p>
-                <p>
-                Social:
-                Facebook
-                Instagram
-                Youtube
-                </p>
+            <div id="contact-page">
+                <div id="contact-details">
+                    <h2>
+                        Mzanzi Tours Head Office
+                    </h2>
+
+                    <p>
+                    Get in touch today, or simply fill in the below contact details and a member of the Farmhand team will be in touch shortly.
+                    </p>
+
+                    <hr>
+
+                    <h3>Physical Address</h3>
+                    <p>
+                        123 Table Mountain Way
+                        <br>Table Mountain
+                        <br>Cape Town
+                        <br>Western Cape
+                        <br>South Africa
+                        <br>PO 7846
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        <strong>Email:</strong> <a mailto="info@mzanzitours.com">info@mzanzitours.com</a>
+                        <br>
+                        <strong>Call:</strong> <a tel="0027111234567">0027 11 123 4567</a>
+                    </p>
+
+                </div>
+
+                <div id="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423812.3292439595!2d18.326424242027727!3d-33.91452907676783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1682337742346!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div id="contact-form">
+                    <p>Ask us anything!</p>
+                    <form action="./thank-you-contact.html">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="full-name" value="" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" value="" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+
             </div>
-            <div id="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423812.3292439595!2d18.326424242027727!3d-33.91452907676783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1682337742346!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div id="contact-form">
-                <p>Ask us anything!</p>
-                <form id="myFormId">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="full-name" value="" required>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" value="" required>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                    <button type="submit">SEND</button>
-                </form>
-            </div>
-        </div>
-    </section>
+
+        </section>
 
     </main>
 
@@ -148,20 +152,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0c303f45d6.js" crossorigin="anonymous"></script>
-    
-    <script>
-        let myForm = document.getElementById("myFormId");
-        myForm.addEventListener("submit", (event) => {
-            event.preventDefault();
-            let postName = document.getElementById("name").value;
-            let postEmail = document.getElementById("email").value;
-            let postMessage = document.getElementById("message").value;
-            let postArray = {postName, postEmail, postMessage};
-            console.log(postArray);
-            //alert("Thanks for your message " + postName+"! Check the console to see your captured data!");
-            location.href = 'thank-you-contact.html?guest='+postName+'&email='+postEmail+'&message='+postMessage;
-        });
-    </script>
 
 </body>
 </html>
