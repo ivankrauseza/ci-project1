@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MZANZI Tours is a travel operator that offers visitors to South Africa a unique packaged based adventure to South Africa.">
     <meta name="keywords" content="Tours, South Africa, Cape Town, activity-two, Kruger Park, Flights, Africa, Safari">
-    <title>Thank You for your Booking Request | MZANZI Tours</title>
+    <title>Thank You for your Booking | MZANZI Tours</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -55,38 +55,25 @@ Contact Us
 
     </header>
 
-<main>
+    <main>
 
-    <section>
-        <div id="home-hero">
-            <h1>
-                THANK YOU
-                <small>We have 3 amazing packages!</small>
-            </h1>
-        </div>
-    </section>
+        <section>
 
-    <section>
-        <div id="home-trips">
-            <a href="packages.html#capetown" class="trip-capetown">Cape Town</a>
-            <a href="packages.html#activity-two" class="trip-activity-two">activity-two</a>
-            <a href="packages.html#krugerpark" class="trip-kurgerpark">Kruger Park</a>
-        </div>
-    </section>
-
-    <section id="home-subscribe">
-        <div id="home-subscribe-content">
-            <div>
-                <h3>Newsletter Signup<small>Get access to our latest offers</small></h3>
+            <div class="headline-wrapper"> 
+                <div class="headline-inner">          
+                    <h1>
+                        Thank You <span style="color: green;" id="guestName"></span>
+                    </h1>
+                    <p>
+                       You message has been sent successfully!
+                    </p>
+                    <small>
+                       You can view the Browser Console to see the message data.
+                    </small>
+                </div> 
             </div>
-            <div>
-                <form>
-                    <input type="email" placeholder="Email Address">
-                    <button>JOIN</button>
-                </form>
-            </div>
-        </div>
-    </section>
+            
+        </section>
 
     </main>
 
@@ -119,6 +106,21 @@ Contact Us
     </footer>
 
     <script src="https://kit.fontawesome.com/0c303f45d6.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function() {
+            try {
+                var url_string = (window.location.href).toLowerCase();
+                var url = new URL(url_string);
+                var name = url.searchParams.get("guest").toUpperCase();
+                var email = url.searchParams.get("email");
+                var message = url.searchParams.get("message");
+                console.log({name, email, message});
+                document.getElementById("guestName").innerHTML = name;
+            } catch (err) {
+                console.log("Issues with Parsing URL Parameter's - " + err);
+            }
+        }
+    </script>
 
 </body>
 </html>
