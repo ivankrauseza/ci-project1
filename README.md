@@ -51,9 +51,7 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 ## Resources
 [Fonts : Google Fonts](https://fonts.google.com)  
-[Icons : Font Awesome](https://fonts.google.com)  
-[CSS @keyframes : Code Institute](https://www.codeinstitute.net)  
-[CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)  
+[Icons : Font Awesome](https://fonts.google.com)   
 [Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/) 
 [Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)  
 [Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/) 
@@ -68,6 +66,9 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 ---
 
 ## Credits
+[CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net)  
+[CSS Columns : "Code Institute - Love Running"](https://www.codeinstitute.net)
+[CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) 
 [CSS Flexbox Tips : "First column 100%"](https://stackoverflow.com/questions/41789278/first-child-full-width-in-flexbox)
 [JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)
 [JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html)
