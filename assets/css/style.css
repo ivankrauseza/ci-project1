@@ -793,13 +793,17 @@ section {
     margin: 0;
     border: 2px solid #fff;
     border-radius: 5px;
-    background: transparent;
+    background: #4F8A8B;
     height: 50px;
     padding: 0 15px;
     width: 100px;
     font-size: 20px;
     letter-spacing: 2px;
     color: #fff;
+}
+#home-subscribe-content form button:active {
+    background:#fff;
+    color: #4F8A8B;
 }
 #home-subscribe-content form button:hover {
     background:#fff;
@@ -1135,6 +1139,11 @@ footer {
         content: close-quote;
     }
 
+        
+    #home-subscribe-content form input {
+        text-align: center;
+        margin-bottom: 15px;
+    }
 
 
     footer {
