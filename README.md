@@ -15,6 +15,12 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 ## Checklist
 
+- [  ] Aria Labels
+- [  ] Alt tags images
+- [  ] YouTube Videos
+- [ x ] Contact Response
+- [  ] Booking Response
+- [  ] Newsletter Response
 - [  ] 404 Error page
 - [  ] W3C Test
 - [  ] CSS Test
