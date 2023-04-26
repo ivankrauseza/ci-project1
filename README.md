@@ -126,23 +126,20 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ---
 
-## Resources
+## Resources and Credits
+[Favicon Generator](https://www.favicon-generator.org/)  
 [Fonts : Google Fonts](https://fonts.google.com)    
 [Icons : Font Awesome](https://fonts.google.com)     
 [Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/)   
 [Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)    
 [Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/)   
-[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)    
+[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)   
 [Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr)    
 [Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)  
 [Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)  
 [Stock Vector "Devices"](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp)  
-
----
-
-## Credits
 [CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net)    
 [CSS Columns : "Code Institute - Love Running"](https://www.codeinstitute.net)  
 [CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)   
