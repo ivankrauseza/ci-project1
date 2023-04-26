@@ -108,10 +108,29 @@ The booking pages only purpose is to allow the guest to submit a booking request
 ---
 
 ## Testing Results
+I have tested the site in Chrome, Safari, Firefox, and Edge and the website displayed the same in each one.  
+I have tested that the responsiveness of the site works accordingly.  
+I confirm that the header, footer, navigation and contents match across all pages.  
+I tested the form using the Code Institute form dump action, but for deployment I reverted to displaying a thank you page for the Newsletter sign up, Contact Form and Booking form.  
+All relevant form fields are required when submitting and this is functioning.  
+
+
+---
+
+## Bugs
+
+### Solved Bugs
+I noticed that in the link tag for the favicon and css, the url needed a relative path for github pages, so the path needed to be href=”./assets/css/style.css” instead of href=”/assets/css/style.css”. 
+
+### Known Bugs
+#### Contact Page - Embedded Google Maps
+![Screenshot](/assets/images/readme/bugs-google-map.png)  
 
 ---
 
 ## Deployment
+The website has been deployed to GitHub Pages and can be viewed at this URL:  
+[Click here to view on GitHub Pages](https://ivankrauseza.github.io/ci-project1/index.html)
 
 ---
 
@@ -139,15 +158,4 @@ The booking pages only purpose is to allow the guest to submit a booking request
 [JS : "Thank you Page redirect"](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)  
 [JS : "Get URL parameter"](https://mrvirk.com/get-url-parameter-values-in-javascript.html)  
 [JS : "Display variable in HTML"](https://sebhastian.com/display-javascript-variable-html/?utm_content=cmp-true)  
-
----
-
-## Bugs
-### Contact Page - Embedded Google Maps
-- [ ] Content Security Policy: Ignoring “'report-sample'” within script-src: ‘strict-dynamic’ specified.
-- [ ] Content Security Policy: Ignoring “'unsafe-inline'” within script-src: ‘strict-dynamic’ specified.
-- [ ] Content Security Policy: Ignoring “https:” within script-src: ‘strict-dynamic’ specified.
-- [ ] Content Security Policy: Ignoring “http:” within script-src: ‘strict-dynamic’ specified.
-- [ ] Content Security Policy: Ignoring “'unsafe-inline'” within script-src: nonce-source or hash-source specified.
-- [ ] Partitioned cookie or storage access was provided to “https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423812.3292439595!2d18.326424242027727!3d-33.91452907676783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1682337742346!5m2!1sen!2sie” because it is loaded in the third-party context and dynamic state partitioning is enabled..
 
