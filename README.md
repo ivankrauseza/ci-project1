@@ -1,6 +1,6 @@
 # MZANZI Tours
 ## Code Institute Project 1 - HTML & CSS
-A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME).   
+A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME). I also used my previous experience as a frontend developer but I have credited code sources where I have needed.  
 
 ![Screenshot](/assets/images/readme/screenshot-responsive.png)   
  
