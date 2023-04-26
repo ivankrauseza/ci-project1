@@ -135,8 +135,24 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ---
 
+## Validation Testing
+### W3C HTML Validation
+
+![Screenshot](/assets/images/readme/w3c-html-validator.png)  
+
+### W3C CSS Validation
+
+![Screenshot](/assets/images/readme/w3c-css-validator.png)  
+
+## Accessibility score
+
+![Screenshot](/assets/images/readme/test-performance-lighthouse.png)  
+![Screenshot](/assets/images/readme/test-accessibility-lighthouse.png)  
+
+---
+
 ## Resources and Credits
-The code structure is inspired by the Code Institute LMS and the Love running test project.  
+The code structure is inspired by the Code Institute LMS and the Love running test project and the design is inspired by National Geographic for colors, Apple for neatness and centralised headline text and Instagram for mobile view.  
 
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Fonts : Google Fonts](https://fonts.google.com)    
