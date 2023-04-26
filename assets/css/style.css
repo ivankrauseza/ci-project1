@@ -686,6 +686,12 @@ a.booking {
 
     /* BOOKING */
 
+    #bookings .video {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
     #booking-page {
         display: flex;
         justify-content:space-evenly;
