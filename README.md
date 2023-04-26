@@ -1,6 +1,6 @@
 # MZANZI Tours
 ## Code Institute Project 1 - HTML & CSS
-A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME) and also some (Vanilla JS) testing purposes on the form submission (Contact Us / Bookings / Newsletter subscription).   
+A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME).   
 
 ![Screenshot](/assets/images/readme/Devices-01.jpg)  
 [Image by storyset on Freepik](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)  
@@ -17,6 +17,10 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 ---
 
 ## Brand
+Basic brand of MZANZI Tours was designed and produced by Ivan Krause.  
+
+![MZANZI Logo](/assets/images/mzanzi-logo.png)  
+
 ### Typography
 [Primary Font: Jost](https://fonts.google.com/specimen/Jost)  
 
@@ -77,6 +81,9 @@ The newsletter subscription form is only on the home page above the footer and i
 ![Screenshot](/assets/images/readme/guests.png)  
 
 ### Packages
+#### Important!
+The hotels featured in the YouTube videos have NO association to this website and are for display reference only.  
+
 The packages page offers the guest 2 options when making a booking. These are a summer and a winter option where the primary itinerary changes for each season but the guest can still see what else they can do. Each option has a hero image, key feature icons, description text about the package, the hotel, and the activities on offer. 
 I included a place for a promotional video of the hotel and embedded YouTube videos.
 The grid is styled using flexbox.  
@@ -102,7 +109,6 @@ I confirm that the header, footer, navigation and contents match across all page
 I tested the form using the Code Institute form dump action, but for deployment I reverted to displaying a thank you page for the Newsletter sign up, Contact Form and Booking form.  
 All relevant form fields are required when submitting and this is functioning.  
 
-
 ---
 
 ## Bugs
@@ -111,6 +117,8 @@ All relevant form fields are required when submitting and this is functioning.
 I noticed that in the link tag for the favicon and css, the url needed a relative path for github pages, so the path needed to be href=”./assets/css/style.css” instead of href=”/assets/css/style.css”. 
 
 ### Known Bugs
+#### Package  Page - Embedded YouTube videos
+![Screenshot](/assets/images/readme/bugs-youtube.png)  
 #### Contact Page - Embedded Google Maps
 ![Screenshot](/assets/images/readme/bugs-google-map.png)  
 
@@ -122,23 +130,22 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ---
 
-## Resources
+## Resources and Credits
+The code structure is inspired by the Code Institute LMS and the Love running test project.  
+
+[Favicon Generator](https://www.favicon-generator.org/)  
 [Fonts : Google Fonts](https://fonts.google.com)    
 [Icons : Font Awesome](https://fonts.google.com)     
 [Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/)   
 [Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)    
 [Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/)   
-[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)    
+[Stock Image "Founder" : Freepik](https://www.freepik.com/free-photo/woman-handsome-joking-senior-elderly_1088519.htm#query=founder%20white%20background&position=49&from_view=search&track=robertav1_2_sidr)   
 [Stock Vector "World Map" : Freepik.com](https://www.freepik.com/free-vector/blue-world-map-design_893721.htm#query=world%20map&position=3&from_view=search&track=robertav1_2_sidr)    
 [Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)  
 [Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)  
 [Stock Vector "Devices"](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp)  
-
----
-
-## Credits
 [CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net)    
 [CSS Columns : "Code Institute - Love Running"](https://www.codeinstitute.net)  
 [CSS @Media Query : W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)   
