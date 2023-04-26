@@ -48,6 +48,65 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 ---
 
+## Features
+
+### Header
+The header is in a fixed position so that it is always visible at the top of the page. The content within the main tag has a top padding the same height as the header so that the very top of the content is not hidden under the header.
+Navigation
+The main navigation will reposition on a mobile device and sit on the bottom of the page like a mobile app. The idea comes from Instagrams default navigation on their app and the text will be hidden so only the icons display. The links have on page styling to indicate it is the active page.
+There is a ‘Back to Top’ link in the main navigation but is only visible on mobile.
+CTA (Call-To-Action)
+The CTA (Call-To-Action) is a link to the booking form and is highlighted as a yellow button.  
+  
+![Screenshot](/assets/images/readme/header.png)  
+
+### Footer
+The footer is designed to be clean and simple and includes the copyright text and social media links. The social media links navigated to live pages within each platform and open in a new tab. The grid is styled using flexbox. The footer is fully responsive and is visible even with the mobile navigation fixed to the bottom of the page.  
+  
+![Screenshot](/assets/images/readme/footer.png)  
+
+### Home
+#### Hero image
+The hero banner is a landscape image of Table Mountain which is Cape Town’s most iconic natural feature and includes view of the Victoria & Alfred Waterfront which is another major tourist destination in Cape Town. The section is fully responsive.  
+  
+![Screenshot](/assets/images/readme/hero.png)  
+
+#### Home USP
+Three tabs which give 3 unique selling points about travelling to Cape Town as a tourist with a read more link to the Packages offered by MZANZI Tours and is complimented by an image gallery below. The grid is styled using flexbox with a hover effect for descriptive text about each image. The section is fully responsive.  
+  
+![Screenshot](/assets/images/readme/usp.png)  
+
+#### Home Gallery
+The gallery is intended to give a real world example of the types of things a guest will see and do during a trip to Cape Town. All images in this gallery are provided by the developer Ivan Krause. The gallery is styled as a masonry grid which was inspired by the Love running section in the Code Institute LMS. The section is fully responsive.  
+  
+![Screenshot](/assets/images/readme/gallery.png)  
+
+#### Home Testimonials and Newsletter
+It is always good practice to include testimonials of paying customers on most websites. In this case, space was allocated for 4 testimonials which includes a profile image, quote, and the name of the guest. The grid is styled using flexbox. The section is fully responsive.  
+  
+The newsletter subscription form is only on the home page above the footer and is highlighted so that is stands out when the viewer gets to the bottom of the page. The section is fully responsive.  
+  
+![Screenshot](/assets/images/readme/guests.png)  
+
+### Packages
+The packages page offers the guest 2 options when making a booking. These are a summer and a winter option where the primary itinerary changes for each season but the guest can still see what else they can do. Each option has a hero image, key feature icons, description text about the package, the hotel, and the activities on offer. 
+I included a place for a promotional video of the hotel and embedded YouTube videos.
+The grid is styled using flexbox.  
+  
+![Screenshot](/assets/images/readme/packages.png)  
+
+### Contact
+The contact page includes three areas for Office information and contact details, a Google Map, and a contact form. When submitting the contact form, the page is redirected to the Thank You page for the form. This is styled using flexbox.  
+  
+![Screenshot](/assets/images/readme/contact.png)  
+
+### Booking
+The booking pages only purpose is to allow the guest to submit a booking request / inquiry with the most important information for MZANZI Tours to review and respond with the most suitable package quote. All fields are required and the form has a max width on desktop so that it is not too wide on bigger screens.  
+  
+![Screenshot](/assets/images/readme/booking-form.png)  
+
+---
+
 ## Testing Results
 
 ---
