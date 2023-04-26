@@ -16,6 +16,7 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 [Bugs](#bugs)  
 [Deployment](#deployment)  
 [Validation](#validation)  
+[Accessibility](#accessibility)  
 [Credits](#credits)  
 
 
@@ -149,7 +150,9 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ![Screenshot](/assets/images/readme/w3c-css-validator.png)  
 
-## Accessibility score
+---
+
+## Accessibility
 
 ![Screenshot](/assets/images/readme/test-performance-lighthouse.png)  
 ![Screenshot](/assets/images/readme/test-accessibility-lighthouse.png)  
