@@ -135,7 +135,7 @@ The code structure is inspired by the Code Institute LMS and the Love running te
 
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Fonts : Google Fonts](https://fonts.google.com)    
-[Icons : Font Awesome](https://fonts.google.com)     
+[Icons : Font Awesome](https://fonts.google.com)    
 [Stock Image "Giraffe" : Pexels](https://www.pexels.com/photo/giraffes-standing-on-brown-grass-field-11153531/)   
 [Stock Image "Mountain" : Pexels](https://www.pexels.com/photo/scenic-view-of-drakensberg-mountain-ranges-10226222/)    
 [Stock Image "Beach" : Pexels](https://www.pexels.com/photo/boardwalk-overlooking-the-beach-13791865/)   
