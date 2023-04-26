@@ -18,6 +18,7 @@ A travel website bringing you the very best of Cape Town South Africa for travel
 
 ## Brand
 Basic brand of MZANZI Tours was designed and produced by Ivan Krause.  
+
 ![MZANZI Logo](/assets/images/mzanzi-logo.png)  
 
 ### Typography
