@@ -114,11 +114,16 @@ All relevant form fields are required when submitting and this is functioning.
 ## Bugs
 
 ### Solved Bugs
+#### Head - Linking files
 I noticed that in the link tag for the favicon and css, the url needed a relative path for github pages, so the path needed to be href=”./assets/css/style.css” instead of href=”/assets/css/style.css”. 
+#### Package  Page - Embedded YouTube videos
+W3C Validator recommends that the width attribute of the iframe does not contain a % value so reverted to the default 560.
 
 ### Known Bugs
 #### Package  Page - Embedded YouTube videos
 ![Screenshot](/assets/images/readme/bugs-youtube.png)  
+W3C Validator recommends removing frameborder attribute and to use css however the css does not change so the iframe has a border.
+
 #### Contact Page - Embedded Google Maps
 ![Screenshot](/assets/images/readme/bugs-google-map.png)  
 
