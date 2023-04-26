@@ -1,6 +1,6 @@
 # MZANZI Tours
 ## Code Institute Project 1 - HTML & CSS
-A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME).   
+A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME). I also used my previous experience as a frontend developer but I have credited code sources where I have needed.  
 
 ![Screenshot](/assets/images/readme/screenshot-responsive.png)   
  
@@ -124,6 +124,8 @@ All relevant form fields are required when submitting and this is functioning.
 I noticed that in the link tag for the favicon and css, the url needed a relative path for github pages, so the path needed to be href=”./assets/css/style.css” instead of href=”/assets/css/style.css”. 
 #### Package  Page - Embedded YouTube videos
 W3C Validator recommends that the width attribute of the iframe does not contain a % value so reverted to the default 560.
+#### W3C Validation
+Minor faults were picked up during testing and were resolved like trailing slashes, href link for favicon and css, alt text, incorrect css, minor contrast issue on newsletter.
 
 ### Known Bugs
 #### Package  Page - Embedded YouTube videos
@@ -143,7 +145,7 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ## Validation
 ### W3C HTML Validation
-
+All pages were tested individually and got the same result (some needed minor tweaks)  
 ![Screenshot](/assets/images/readme/w3c-html-validator.png)  
 
 ### W3C CSS Validation
