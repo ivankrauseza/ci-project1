@@ -85,7 +85,7 @@
 
                     <h4>Package Selection</h4>
                     <label for="package">Please choose a Package</label>
-                    <select>
+                    <select id="package">
                         <option value="Summer2324">Summer Package 2023-2024</option>
                         <option value="Winter24">Winter Package 2024</option>
                     </select>
@@ -101,10 +101,10 @@
                     <input type="number" id="kids" name="kids" value="0" required>
 
                     <label for="message">Special Notes/ Dietary Requirements</label>
-                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
                     <label for="gdpr">By sending this email you agree and accept our GDPR Policy</label>
-                    <input type="checkbox" name="gdpr">
+                    <input id="gdpr" type="checkbox" name="gdpr">
 
                     <button>SUBMIT INQUIRY</button>
                 </form>
