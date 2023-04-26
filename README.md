@@ -2,17 +2,22 @@
 ## Code Institute Project 1 - HTML & CSS
 A travel website bringing you the very best of Cape Town South Africa for travellers that want everything covered in a simple and affordable package. This website is developed in HTML and complimented by responsive CSS styling. Also included are minor JS packages for display icons (FONT AWESOME).   
 
-![Screenshot](/assets/images/readme/Devices-01.jpg)  
-[Image by storyset on Freepik](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)  
+![Screenshot](/assets/images/readme/screenshot-responsive.png)   
+ 
+[Image produced by http://ami.responsivedesign.is/](https://ui.dev/amiresponsive?url=https://ivankrauseza.github.io/ci-project1/)  
+
+---
 
 ## Contents
-- Introduction (above)
-- Brand
-- Features
-- Testing Results
-- Deployment
-- Resources
-- Credits
+[Introduction](#introduction)  
+[Brand](#brand)  
+[Features](#features)  
+[Testing](#testing)  
+[Bugs](#bugs)  
+[Deployment](#deployment)  
+[Validation](#validation)  
+[Credits](#credits)  
+
 
 ---
 
@@ -102,7 +107,7 @@ The booking pages only purpose is to allow the guest to submit a booking request
 
 ---
 
-## Testing Results
+## Testing
 I have tested the site in Chrome, Safari, Firefox, and Edge and the website displayed the same in each one.  
 I have tested that the responsiveness of the site works accordingly.  
 I confirm that the header, footer, navigation and contents match across all pages.  
@@ -135,7 +140,7 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ---
 
-## Validation Testing
+## Validation
 ### W3C HTML Validation
 
 ![Screenshot](/assets/images/readme/w3c-html-validator.png)  
@@ -151,7 +156,7 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 
 ---
 
-## Resources and Credits
+## Credits
 The code structure is inspired by the Code Institute LMS and the Love running test project and the design is inspired by National Geographic for colors, Apple for neatness and centralised headline text and Instagram for mobile view.  
 
 [Favicon Generator](https://www.favicon-generator.org/)  
