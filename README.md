@@ -103,6 +103,7 @@ The contact page includes three areas for Office information and contact details
 
 ### Booking
 The booking pages only purpose is to allow the guest to submit a booking request / inquiry with the most important information for MZANZI Tours to review and respond with the most suitable package quote. All fields are required and the form has a max width on desktop so that it is not too wide on bigger screens.  
+The booking page also includes a html5 video player with a timelapse video of a boat trip.  
   
 ![Screenshot](/assets/images/readme/booking-form.png)  
 
