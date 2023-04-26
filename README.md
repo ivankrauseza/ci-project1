@@ -81,6 +81,9 @@ The newsletter subscription form is only on the home page above the footer and i
 ![Screenshot](/assets/images/readme/guests.png)  
 
 ### Packages
+#### Important!
+The hotels featured in the YouTube videos have NO association to this website and are for display reference only.  
+
 The packages page offers the guest 2 options when making a booking. These are a summer and a winter option where the primary itinerary changes for each season but the guest can still see what else they can do. Each option has a hero image, key feature icons, description text about the package, the hotel, and the activities on offer. 
 I included a place for a promotional video of the hotel and embedded YouTube videos.
 The grid is styled using flexbox.  
@@ -106,7 +109,6 @@ I confirm that the header, footer, navigation and contents match across all page
 I tested the form using the Code Institute form dump action, but for deployment I reverted to displaying a thank you page for the Newsletter sign up, Contact Form and Booking form.  
 All relevant form fields are required when submitting and this is functioning.  
 
-
 ---
 
 ## Bugs
@@ -115,6 +117,8 @@ All relevant form fields are required when submitting and this is functioning.
 I noticed that in the link tag for the favicon and css, the url needed a relative path for github pages, so the path needed to be href=”./assets/css/style.css” instead of href=”/assets/css/style.css”. 
 
 ### Known Bugs
+#### Package  Page - Embedded YouTube videos
+![Screenshot](/assets/images/readme/bugs-youtube.png)  
 #### Contact Page - Embedded Google Maps
 ![Screenshot](/assets/images/readme/bugs-google-map.png)  
 
@@ -127,6 +131,8 @@ The website has been deployed to GitHub Pages and can be viewed at this URL:
 ---
 
 ## Resources and Credits
+The code structure is inspired by the Code Institute LMS and the Love running test project.  
+
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Fonts : Google Fonts](https://fonts.google.com)    
 [Icons : Font Awesome](https://fonts.google.com)     
