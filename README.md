@@ -144,6 +144,7 @@ The code structure is inspired by the Code Institute LMS and the Love running te
 [Stock Vector "Map South Africa" : FreeVectorMaps.com](https://freevectormaps.com/south-africa/ZA-EPS-02-0003)  
 [Stock Image "Lions" : Pexels](https://www.pexels.com/photo/lions-surrounded-with-leafless-trees-1617411/)  
 [Stock Vector "Devices"](https://www.freepik.com/free-vector/responsive-concept-illustration_6170520.htm#query=multiple%20devices&position=0&from_view=keyword&track=robertav1_2_sidr)
+[Stock Vector "Profile Images"](https://www.freepik.com/free-vector/set-avatar-silhouettes_1265960.htm#query=profile&position=3&from_view=keyword&track=robertav1_2_sidr)  
 [Favicon Generator](https://www.favicon-generator.org/)  
 [Favicon Addition : "W3S"](https://www.w3schools.com/html/html_favicon.asp)  
 [CSS @keyframes : Code Institute - Love Running](https://www.codeinstitute.net)    
